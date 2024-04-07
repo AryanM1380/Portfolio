@@ -1,0 +1,49 @@
+.card {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #7389a0e9;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.blockquote {
+    font-style: italic;
+}
+
+.blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+.blockquote-footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+    }
+}
+.experience {
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    color: #6c757d; /* or any color you prefer */
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  

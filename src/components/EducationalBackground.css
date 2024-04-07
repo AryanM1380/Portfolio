@@ -1,0 +1,37 @@
+.education-container {
+    margin: 20px;
+}
+
+.education-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.education-item h3 {
+    margin-top: 0;
+}
+
+.education-item p {
+    margin-bottom: 5px;
+}
+.education-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.education-item:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+.education-item h3 {
+    margin-top: 0;
+}
+
+.education-item p {
+    margin-bottom: 5px;
+}

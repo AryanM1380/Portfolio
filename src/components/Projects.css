@@ -1,0 +1,39 @@
+/* Projects.css */
+
+/* Accordion styles */
+.Accordion {
+    width: 100%;
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .Accordion.Item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .Accordion.Header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .Accordion.Body {
+    padding: 10px;
+  }
+  
+  .Accordion.Body p {
+    margin-bottom: 10px;
+  }
+  
+  .Accordion.Body a {
+    color: #007bff; /* Bootstrap's primary color */
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .Accordion.Body a:hover {
+    text-decoration: underline;
+  }
+  

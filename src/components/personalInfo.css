@@ -1,0 +1,65 @@
+.personal-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container {
+    flex: -1;
+}
+
+.image-container img {
+    width: 350px; /* Adjust according to your preference */
+    height: 350px; /* Adjust according to your preference */
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.image-container img:hover {
+    transform: rotate(3deg); /* Rotate image slightly on hover */
+}
+
+.about-me {
+    flex: 2;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif; /* Apply the selected font */
+}
+
+.about-me p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; /* Apply the selected font */
+    text-align: left; /* Align text to the left */
+}
+p{
+    margin-right: 100px;
+}
+/* For screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    .personal-info-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+    }
+
+    .image-container img {
+        width: 200px; /* Adjust image size for smaller screens */
+        height: 200px; /* Adjust image size for smaller screens */
+    }
+
+    .about-me {
+        width: 100%; /* Make text container full width */
+        margin-top: 20px; /* Add some space between image and text */
+    }
+
+    .about-me h2 {
+        font-size: 20px; /* Decrease heading font size */
+    }
+
+    .about-me p {
+        font-size: 14px; /* Decrease paragraph font size */
+        margin-right: 0; /* Reset margin */
+    }
+}
